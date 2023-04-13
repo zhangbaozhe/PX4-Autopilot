@@ -130,5 +130,20 @@
         },
         "python.autoComplete.extraPaths": [
                 "/opt/ros/noetic/lib/python3/dist-packages"
+        ],
+        "python.analysis.extraPaths": [
+                "/opt/ros/noetic/lib/python3/dist-packages"
+        ],
+        "clangd.fallbackFlags": [
+                "-I${workspaceFolder}/src/**",
+                "-I${workspaceFolder}/Tools/simulation/gazebo-classic/sitl_gazebo-classic/include/",
+                "-I/opt/ros/noetic/include",
+                "-I/opt/ros/noetic/share",
+                "-I/opt/ros/noetic/share/**",
+                "-I/usr/include/opencv4/",
+                "-I/usr/include/eigen3/",
+                "-I/usr/include/python3.8/",
+                "-I/usr/include/gazebo-11/",
+                "-I/usr/include/sdformat-9.10/"
         ]
 }
