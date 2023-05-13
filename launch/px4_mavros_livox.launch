@@ -8,7 +8,7 @@
     <arg name="Y" default="0"/>
     <!-- vehicle model and world -->
     <arg name="est" default="ekf2"/>
-    <arg name="vehicle" default="iris_D435ix4"/>
+    <arg name="vehicle" default="iris_livox"/>
     <arg name="world" default="$(find mavlink_sitl_gazebo)/worlds/empty_obstacle.world"/>
     <arg name="sdf" default="$(find mavlink_sitl_gazebo)/models/$(arg vehicle)/$(arg vehicle).sdf"/>
     <!-- gazebo configs -->
